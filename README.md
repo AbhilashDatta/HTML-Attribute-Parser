@@ -8,7 +8,7 @@ The closing tags follow the format:
 </tag-name>
 
 The attributes are referenced as:
-tag1~value  
+tag1\~value  
 tag1.tag2~name
 
 Given the source code in HRML format consisting of N lines, it'll answer Q queries. 
