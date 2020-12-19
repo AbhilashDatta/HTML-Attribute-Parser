@@ -19,7 +19,7 @@ Given the source code in HRML format consisting of N lines, it'll answer Q queri
 
 Example:
 
-HRML listing
+**HRML listing**
 
 \<tag1 value = "value"\>
 
@@ -33,7 +33,7 @@ HRML listing
 
 </tag1>
 
-Queries
+**Queries**
 
 tag1\~value
 
@@ -48,3 +48,9 @@ tag1~value:              "value"
 tag1.tag2.tag3~name:    "Not Found!"
 
 tag1.tag2.tag3~final:    "final"
+
+**Input Format**
+
+The first line consists of two space separated integers, N and Q. N specifies the number of lines in the HRML source program. Q specifies the number of queries.
+
+The following  lines consist of either an opening tag with zero or more attributes or a closing tag. If there are no attributes there is no space after tag name. Q queries follow in the above specified format.
