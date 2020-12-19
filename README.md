@@ -47,10 +47,8 @@ tag1.tag2\~value
 
 Here, tag2 is nested within tag1, so attributes of tag2 are accessed as tag1.tag2~<attribute>. Results of the queries are:
 
-Query                 Value
+tag1~value:              "value"
 
-tag1~value            "value"
+tag1.tag2.tag3~name:    "Not Found!"
 
-tag1.tag2.tag3~name   "Not Found!"
-
-tag1.tag2.tag3~final  "final"
+tag1.tag2.tag3~final:    "final"
