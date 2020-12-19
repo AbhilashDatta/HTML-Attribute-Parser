@@ -12,7 +12,7 @@ tag1\~value
 tag1.tag2~name
 
 Given the source code in HRML format consisting of N lines, it'll answer Q queries. 
-For each query, it'll print the value of the attribute specified. 
+For each query, it'll print the value of the attribute specified. \n
 It'll print "Not Found!" if the attribute does not exist.
 
 Example:
