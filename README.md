@@ -25,11 +25,11 @@ Example:
 
 HRML listing
 
-<tag1 value = "value">
+\<tag1 value = "value"\>
 
-<tag2 name = "name">
+\<tag2 name = "name"\>
 
-<tag3 another="another" final="final">
+\<tag3 another="another" final="final"\>
 
 </tag3>
 
