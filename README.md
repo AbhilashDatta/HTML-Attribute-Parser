@@ -3,11 +3,11 @@ The program can parse all different attributes of different tags used in any HTM
 
 The opening tags follow the format:
 
-<tag-name attribute1-name = "value1" attribute2-name = "value2" ...>
+\<tag-name attribute1-name = "value1" attribute2-name = "value2" ...\>
 
 The closing tags follow the format:
 
-</tag-name>
+\</tag-name\>
 
 The attributes are referenced as:
 
@@ -15,11 +15,7 @@ tag1\~value
 
 tag1.tag2\~name
 
-Given the source code in HRML format consisting of N lines, it'll answer Q queries. 
-
-For each query, it'll print the value of the attribute specified. 
-
-It'll print "Not Found!" if the attribute does not exist.
+Given the source code in HRML format consisting of N lines, it'll answer Q queries.  For each query, it'll print the value of the attribute specified.  It'll print "Not Found!" if the attribute does not exist.
 
 Example:
 
